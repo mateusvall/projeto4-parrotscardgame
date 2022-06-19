@@ -16,11 +16,7 @@ body{
     letter-spacing: -0.004em;
     color: #75B79E;
 }
-.board{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .game-area{
     margin: 47px 88px;
     display: flex;
