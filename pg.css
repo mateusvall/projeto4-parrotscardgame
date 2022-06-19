@@ -1,0 +1,48 @@
+body{
+    background-color: #EEF9BF;
+}
+
+.title{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+    letter-spacing: -0.004em;
+    color: #75B79E;
+}
+
+.game-area{
+    margin: 47px 88px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin-left: 34px;
+    margin-bottom: 34px;
+    width: 117px;
+    height: 146px;
+    background: #A7E9AF;
+    border: 1px solid #99CEA8;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 335px){
+    .title{
+        font-size: 36px;
+    }
+    
+    .card{
+        margin-left: 21px;
+        margin-right: 21px;
+    }
+}
